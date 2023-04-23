@@ -1,5 +1,5 @@
 
-package JavaContainerPractice;
+package javaCollectionFramework;
 
 import java.io.IOException;
 
