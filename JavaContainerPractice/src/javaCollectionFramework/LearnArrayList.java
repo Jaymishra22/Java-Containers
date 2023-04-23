@@ -33,15 +33,24 @@ public class LearnArrayList {
 	studentsName.add(1, "Shashwat");
 	System.out.println(studentsName);
 	
-	ArrayList<String> list= new ArrayList<>();
-	list.add("Haley");
-	list.add("Ramesh");
-	list.add("Jatin");
-	list.add("Natin");
-	
+	 ArrayList<String> list= new ArrayList<>(); list.add("Haley");
+	list.add("Ramesh"); list.add("Jatin"); list.add("Natin");
+	 
 	studentsName.addAll(list); // with addAll function we can add new list to an existing list
 	
 	System.out.println(studentsName);
+	
+	// Implementing queue
+	
+	Queue<Integer> queue = new LinkedList<>();
+	queue.offer(2);
+	int t=queue.peek();
+	System.out.println(queue);
+	System.out.println(t);
+	
+	System.out.println(queue.poll());
+	System.out.println(queue);
+	
 	
 	
 	
